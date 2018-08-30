@@ -50,8 +50,8 @@ print(math.sqrt(valuey + valuez))
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
-
+print(math.sqrt(2))
+print(2**.5)
 ###############################################################################
 # TODO: 5.
 #   Every object has a TYPE and a VALUE.  For example,
