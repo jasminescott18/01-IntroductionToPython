@@ -1,5 +1,6 @@
 print('Hello, World')
-k
+print('The OTP')
+print(3607 + 34227)
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -17,7 +18,7 @@ k
 
 ###############################################################################
 #
-# TODO: 1.
+# COMPLETED: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and selecting
@@ -32,7 +33,7 @@ k
 
 ###############################################################################
 #
-# TODO: 2.
+# COMPLETED: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -57,7 +58,7 @@ k
 
 ###############################################################################
 #
-# TODO: 3.
+# COMPLETED: 3.
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #
@@ -70,7 +71,7 @@ k
 
 ###############################################################################
 #
-# TODO: 4.
+# COMPLETED: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
