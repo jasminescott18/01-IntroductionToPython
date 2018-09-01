@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# COMPLETED: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -32,7 +32,7 @@ window = rg.TurtleWindow()
 
 son_goku = rg.SimpleTurtle('arrow')
 son_goku.pen = rg.Pen('orange',5)
-son_goku.speed = 5
+son_goku.speed = 2
 
 for k in range(3):
 
@@ -51,7 +51,7 @@ for k in range(3):
 
 prince_vegeta = rg.SimpleTurtle('arrow')
 prince_vegeta.pen = rg.Pen('blue',5)
-prince_vegeta.speed = 1
+prince_vegeta.speed = 2
 
 prince_vegeta.right(90)
 prince_vegeta.pen_up()
