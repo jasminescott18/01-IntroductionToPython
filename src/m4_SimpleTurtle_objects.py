@@ -111,7 +111,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# COMPLETED: 4.
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -122,20 +122,16 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-vegeta = rg.SimpleTurtle('circle')
-vegeta.pen = rg.Pen('blue',25)
-vegeta.speed = 10
+boris.speed = 2
+boris.pen = rg.Pen('green',10)
 
-vegeta.draw_circle(50)
-
-vegeta.speed = 20
-
-vegeta.forward(50)
-vegeta.right(90)
-vegeta.forward(100)
+boris.left(90)
+boris.forward(200)
+boris.right(60)
+boris.backward(500)
 ###############################################################################
 #
-# TODO: 5.
+# COMPLETED: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -159,7 +155,17 @@ vegeta.forward(100)
 #   As always, test by running the module.
 #
 ###############################################################################
+vegeta = rg.SimpleTurtle('circle')
+vegeta.pen = rg.Pen('blue',25)
+vegeta.speed = 10
 
+vegeta.draw_circle(50)
+
+vegeta.speed = 20
+
+vegeta.forward(50)
+vegeta.right(90)
+vegeta.forward(100)
 ###############################################################################
 #
 # TODO: 6.
