@@ -34,7 +34,8 @@ son_goku = rg.SimpleTurtle('arrow')
 son_goku.pen = rg.Pen('orange',5)
 son_goku.speed = 5
 
-for k in range(5)
+for k in range(3):
+
     son_goku.forward(100)
     son_goku.pen_up()
     son_goku.right(90)
@@ -47,3 +48,28 @@ for k in range(5)
     son_goku.forward(50)
     son_goku.left(90)
     son_goku.pen_down()
+
+prince_vegeta = rg.SimpleTurtle('arrow')
+prince_vegeta.pen = rg.Pen('blue',5)
+prince_vegeta.speed = 1
+
+prince_vegeta.right(90)
+prince_vegeta.pen_up()
+prince_vegeta.forward(25)
+
+for k in range(3):
+
+    prince_vegeta.pen_down()
+    prince_vegeta.left(90)
+    prince_vegeta.forward(100)
+    prince_vegeta.pen_up()
+    prince_vegeta.right(90)
+    prince_vegeta.forward(50)
+    prince_vegeta.pen_down()
+    prince_vegeta.right(90)
+    prince_vegeta.forward(100)
+    prince_vegeta.pen_up()
+    prince_vegeta.left(90)
+    prince_vegeta.forward(50)
+
+window.close_on_mouse_click()
