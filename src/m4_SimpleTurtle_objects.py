@@ -122,7 +122,17 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+vegeta = rg.SimpleTurtle('circle')
+vegeta.pen = rg.Pen('blue',25)
+vegeta.speed = 10
 
+vegeta.draw_circle(50)
+
+vegeta.speed = 20
+
+vegeta.forward(50)
+vegeta.right(90)
+vegeta.forward(100)
 ###############################################################################
 #
 # TODO: 5.
